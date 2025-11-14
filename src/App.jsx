@@ -8,10 +8,13 @@ import About from './pages/About'
 import Contact from './pages/Contact'
 import Gallery from './pages/Gallery'
 import ServiceDetail from './pages/ServiceDetail'
+import FloatingButtons from "./Components/FloatingButtons"
+import ScrollToTop from "./Components/ScrollToTop"
 
 const App = () => {
   return (
    <BrowserRouter>
+   <ScrollToTop/>
    <Navbar/>
    <Routes>
     <Route path='/' element={<Home/>} />
@@ -20,6 +23,7 @@ const App = () => {
     <Route path='/gallery' element={<Gallery/>} />
     <Route path='/contact' element={<Contact/>} />
    </Routes>
+   <FloatingButtons/>
    <FooterSuperFast/>
     </BrowserRouter>
   )
