@@ -18,7 +18,8 @@ import img11 from "../assets/services/s2.jpg";
 import img12 from "../assets/services/s3.jpg";
 import img13 from "../assets/gallery/gal.jpg"
 import img14 from "../assets/gallery/gal2.jpg"
-import GalleryHero from "../components/Galleryhero";
+import Galleryhero from "../Components/Galleryhero"
+
 
 // 🎨 Brand Colors
 const colors = {
@@ -79,8 +80,8 @@ const Gallery = () => {
 
   return (
     <>
-      <GalleryHero />
-      <section
+      <Galleryhero/>
+        <section
         id="gallery"
         className="relative bg-[#FDFBF7] px-6 md:px-12 lg:px-20 py-5 overflow-hidden"
       >

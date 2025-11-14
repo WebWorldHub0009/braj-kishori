@@ -36,9 +36,18 @@ const GalleryHero = () => {
           initial={{ opacity: 0, y: 40 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 1 }}
-          className="text-4xl md:text-5xl font-semibold uppercase tracking-wide text-white drop-shadow-lg"
+          className="
+          
+          text-4xl md:text-5xl font-semibold uppercase tracking-wide text-white drop-shadow-lg"
         >
-          Our <span style={{ color: colors.red }}>Gallery</span>
+          Our <span
+
+          
+          
+           style={{
+                fontFamily: "Italiana, serif",
+                color: colors.red,
+              }}>Gallery</span>
         </motion.h1>
 
         <motion.p
